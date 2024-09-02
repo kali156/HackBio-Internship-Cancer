@@ -2,7 +2,7 @@
 
 Author (@Liliana): Astrid Liliana Vargas Sánchez
 
-Github Repo: 
+Github Repo: https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Stage-zero-Gram%20positive-vs-Negative%20bacteria.md
 
 ## Gram positive vs Negative bacteria
 Cancer is a disease caused by alterations in genetic material, induced by various factors such as the environment, heredity, or errors in cell multiplication. It is characterized by changes in multiple signaling pathways and cellular processes, including cell proliferation, apoptosis, and DNA repair (1). Several studies have suggested that as few as three or fewer mutations may be sufficient to initiate cancer development (2,3).
