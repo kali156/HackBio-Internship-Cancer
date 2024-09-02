@@ -1,6 +1,6 @@
 # Learning Track 3: Data Science and Machine Learning
 
-Author (@Liliana): Astrid Liliana Vargas Sanchez
+Author (@Liliana): Astrid Liliana Vargas Sánchez
 
 Github Repo: https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Stage-zero-Protein%20Network%20Analysis.md
 
