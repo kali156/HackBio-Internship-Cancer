@@ -2,7 +2,7 @@
 
 Author (@Liliana): Astrid Liliana Vargas Sánchez
 
-Github Repo: https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Stage-zero-Protein%20Network%20Analysis.md
+Github Repo: https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Stage-zero-Protein-Protein-Network-Analysis.md
 
  ## Protein-Protein Network Analysis
 Cancer is a disease that arises from alterations in genetic material, induced by various factors such as the environment, heredity, or errors during cell multiplication. It is characterized by modifications in multiple signaling pathways and cellular processes, including cell proliferation, apoptosis, and DNA repair (1). Recent studies suggest that only three or fewer mutations are needed to trigger the onset of cancer (2,3).
