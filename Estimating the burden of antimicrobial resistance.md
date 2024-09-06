@@ -52,5 +52,5 @@ Naylor NR, Atun R, Zhu N, Kulasabanathan K, Silva S, Chatterjee A, Knight GM, Ro
 
 ## Media Resources 
 
-[The Video link](https://www.linkedin.com/posts/astrid-liliana-vargas-a4939a148_hello-everyone-we-are-excited-to-share-with-activity-7237824046367748097-j6F5?utm_source=share&utm_medium=member_desktop)
-[Full article at this link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5918775/)
+- [The Video link](https://www.linkedin.com/posts/astrid-liliana-vargas-a4939a148_hello-everyone-we-are-excited-to-share-with-activity-7237824046367748097-j6F5?utm_source=share&utm_medium=member_desktop)
+- [Full article at this link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5918775/)
