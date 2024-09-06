@@ -46,6 +46,10 @@ The review highlights the need for more rigorous methodologies in future AMR res
 
 Future studies should employ robust economic models and multivariate approaches to enhance the accuracy and comparability of AMR burden estimates, crucial for informing policy decisions and guiding effective AMR interventions.
 
+## References
+
+Naylor NR, Atun R, Zhu N, Kulasabanathan K, Silva S, Chatterjee A, Knight GM, Robotham JV. Estimating the burden of antimicrobial resistance: a systematic literature review. Antimicrob Resist Infect Control. 2018 Apr 25;7:58. doi: 10.1186/s13756-018-0336-y. PMID: 29713465; PMCID: PMC5918775.
+
 ## Media Resources 
 
 [The Video link](https://www.linkedin.com/posts/astrid-liliana-vargas-a4939a148_hello-everyone-we-are-excited-to-share-with-activity-7237824046367748097-j6F5?utm_source=share&utm_medium=member_desktop)
