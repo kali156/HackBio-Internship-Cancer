@@ -1,4 +1,4 @@
-## **Estimating the burden of antimicrobial resistance: a systematic literature review**
+# **Estimating the burden of antimicrobial resistance: a systematic literature review**
 Authors (@slack): .Mahmoud hassanein (@Mahmoud hassanein),Astrid Liliana Vargas Sanchez (@Liliana) ,Brian Bosire (@Bosire Ke),Noreen Nasambu Juma (@Nareju_noreen)
 
 ## **Introduction**
@@ -20,8 +20,6 @@ The review examined studies published between January 2013 and December 2015, ut
 The review analyzed 5187 titles and abstracts concluded into 214 studies were included, of which 187 estimated the AMR burden from the patient perspective, 75 from the healthcare system perspective, and only 11 from the economic perspective. The most individually studied genus was:
 
 ![Picture1](https://github.com/user-attachments/assets/b9ba2f05-1666-4a19-b61b-339404dd60b6)
-
-
 
 *Staphylococcus* (23%, 50/214), followed by *Klebsiella* (9%, 19/214) and *Acinetobacter* (8%, 18/214). The countries that individually produced the highest number of studies were the United States (19%, 40/214), followed by South Korea (7%, 15/214) and Spain (6%, 13/214).
 
