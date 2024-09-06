@@ -51,3 +51,4 @@ Future studies should employ robust economic models and multivariate approaches 
 ## Media Resources 
 
 [the Video link](https://www.linkedin.com/posts/astrid-liliana-vargas-a4939a148_hello-everyone-we-are-excited-to-share-with-activity-7237824046367748097-j6F5?utm_source=share&utm_medium=member_desktop)
+[Full article at this link:](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5918775/)
