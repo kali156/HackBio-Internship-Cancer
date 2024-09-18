@@ -46,7 +46,7 @@ cholera_data <- cholera_data %>%
 
 
 ```{r}
-# oin cholera data with the countries' shapefile
+# Join cholera data with the countries' shapefile
 cholera_map <- world %>%
   left_join(cholera_data, by = c("name" = "country"))
 names(cholera_map)
