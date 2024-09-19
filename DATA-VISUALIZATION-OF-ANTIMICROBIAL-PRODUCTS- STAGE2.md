@@ -35,6 +35,8 @@ the products can be explored by type, phase of clinical development,
 activity against pathogens,innovativeness, route of administration,
 antibiotic class and developers.</br>
 
+**Link for infographics:** *https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE_2_INFOGRAPHICS_DATA%20VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS.pdf*
+
 Let’s try to analyse and visualize the data. </br>
 
 ``` r
@@ -1156,5 +1158,3 @@ MGB-BP-3, Ridinilazole.
 
  ***THE DATA WAS SEGMENTED INTO SUBSETS TO REMOVE DUPLICATES AND
 OBTAIN MEANINGFUL RESULTS***
-
-**Link for infographics:** *https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE_2_INFOGRAPHICS_DATA%20VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS.pdf*
