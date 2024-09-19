@@ -128,7 +128,7 @@ AMR_PRODUCTS$Pathogen.name <- as.factor(AMR_PRODUCTS$Pathogen.name)
 ggplot(data = AMR_PRODUCTS, aes(y= `Pathogen.name`))+ geom_bar(aes(fill = Pathogen.name), color = "black")+ labs(title = "TARGET PATHOGEN", y= "Pathogen", x= "Frequency")+ theme_classic()+ theme(plot.title  = element_text(face = "bold"),legend.key.size = unit(0.2,"cm"), legend.text = element_text(size=5))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![Graph 1](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 Most of the drugs studied are targeted at ***Staphylococcus aureus***,
 while the fewest are focused on ***Mycobacterium tuberculosis***. </br>
@@ -177,21 +177,22 @@ Target
 ggplot(Target, aes(x = Pathogen.name, fill = Freq )) + geom_bar(position = "dodge", color="black") + facet_wrap(~ Product.type) + labs(title = "SPECTRUM OF ANTIMICROBIALS AGAINST PATHOGENS", fill = "Count of drugs against pathogens", x= "Pathogen")+ theme_classic()+  theme(plot.title  = element_text(face = "bold")) + theme(axis.text.x = element_text(angle = 90))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![Graph 2](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
 ``` r
 # ANTIBIOTICS - TARGET PATHOGENS
 ggplot(data = Antibiotics, aes(x = Product.name)) + geom_bar(aes(fill = Pathogen.name), color ="black")+ labs(title = "ANTIBIOTICS - TARGET PATHOGENS", y = "TARGET", x = "PRODUCT", fill= "Target")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"), legend.key.size = unit(0.2,"cm"), legend.text = element_text(size=5))+ theme(axis.text.x = element_text(angle = 90))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-4-2.png)
+![Graph 3](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-4-2.png)
 
 ``` r
 # NON-TRADITIONALS - TARGET PATHOGEN
 ggplot(data = Non_traditional, aes(x = Product.name)) + geom_bar(aes(fill = Pathogen.name), color ="black")+ labs(title = "NON-TRADITIONALS PRODUCTS - TARGET PATHOGENS", y = "TARGET", x = "PRODUCT", fill= "Target")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"), legend.key.size = unit(0.2,"cm"), legend.text = element_text(size=5))+ theme(axis.text.x = element_text(angle = 90))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-4-3.png)
+![Graph 4](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-4-3.png)
+
 
 From table and graphs, we can infer details on the spectrum of activity
 of antibiotics and non-traditional. Most of the products are
@@ -220,7 +221,7 @@ Route <- as.data.frame(Route)
 ggplot(data = Route, aes(x = Route.of.administration)) + geom_bar(aes(fill = Route.of.administration), color ="black")+ labs(title = "ROUTE OF ADMINISTRATION",  x = "Route", fill= "Route")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"))+ theme(axis.text.x = element_text(angle = 90))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![Graph 5](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 ``` r
 Route
@@ -319,7 +320,7 @@ Phase <- as.data.frame(Phase)
 ggplot(Phase, aes(x = Product.type, fill = R.D.phase )) + geom_bar(position = "dodge", color="black") + labs(title = "ANTIMICROBIAL PRODUCTS - CLINICAL DEVELOPMENT PHASE", fill = "Phase", x= "Product type")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![Graph 6](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 ``` r
 #Antibiotics - Clinical phase
@@ -632,7 +633,8 @@ priority <- as.data.frame(priority)
 ggplot(data = priority) + geom_bar(mapping = aes( fill = Pathogen.name, x = Pathogen.activity), color="black") + labs(title = "PRIORITY PATHOGENS AND THEIR THREAT LEVELS", x = "Priority level", fill= "Pathogen")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"),legend.key.size = unit(0.2,"cm"), legend.text = element_text(size=5))+theme(axis.text.x = element_text(angle = 10))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![Graph 7](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-8-1.png)
+
 
 ``` r
 priority
@@ -672,7 +674,7 @@ Activity <- na.omit(Activity)
 ggplot(Activity, aes(x = Product.type, fill = Active.against.priority.pathogens. )) + geom_bar(position = "dodge", color="black")  + labs(title = "ANTIMICROBIAL PRODUCT ACTIVE AGAINST PATHOGENS", fill = "Active", x= "Product")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![Graph 8](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 ``` r
 #ANTIBIOTICS ACTIVE AGAINST PRIORITY PATHOGENS
@@ -684,7 +686,7 @@ AB_Activity <- na.omit(AB_Activity)
 ggplot(AB_Activity, aes(x =Active.against.priority.pathogens., fill = Product.name )) + geom_bar(position = "dodge", color="black") + facet_wrap(~ Pathogen.name) + labs(title = "ANTIBIOTICS ACTIVE AGAINST PRIORITY PATHOGENS", x = "Activity", fill= "Product")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"),legend.position = "bottom", legend.key.size = unit(0.2,"cm"), legend.text = element_text(size=4))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-9-2.png)
+![Graph 9](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-9-2.png)
 
 ``` r
 #NON-TRADITIONALS ACTIVE AGAINST PRIORITY PATHOGENS
@@ -696,7 +698,7 @@ NT_Activity <- na.omit(NT_Activity)
 ggplot(NT_Activity, aes(x =Active.against.priority.pathogens., fill = Product.name )) + geom_bar(position = "dodge", color="black") + facet_wrap(~ Pathogen.name) + labs(title = "NON-TRADITIONAL PRODUCTS ACTIVE AGAINST PRIORITY PATHOGENS", x = "Activity", fill= "Product")+ theme_classic()+  theme(plot.title  = element_text(face = "bold"),legend.position = "bottom",legend.key.size = unit(0.2,"cm"), legend.text = element_text(size=4))
 ```
 
-![](STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-9-3.png)
+![Graph 10](https://github.com/BLakshana/Hackbio_cancer_internship/blob/main/STAGE2_DATA-VISUALIZATION%20OF%20ANTIMICROBIAL%20PRODUCTS%20IN%20CLINICAL%20DEVELOPMENT%20(WHO-Nov%202021)/STAGE2_DATA-VISUALIZATION-OF-ANTIMICROBIAL-PRODUCTS_files/figure-markdown_github/unnamed-chunk-9-3.png)
 
 Antibiotics and non-traditional products that are active against
 priority pathogens are visualized.
