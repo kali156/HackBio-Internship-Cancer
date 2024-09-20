@@ -11,7 +11,7 @@ options(scipen=3)
 # Read data
 library(readr)
 
-data <- read.csv("E:/Documentos/Maestria Lili/Proyectos/Hackbio/Stage 3/Número de casos notificados.csv")
+data <- read.csv
 
 ```
 
@@ -103,7 +103,7 @@ The lack of hospital care and treatments rendered cholera a lethal disease, whic
 # Read data
 library(readr)
 
-data2 <- read.csv("E:/Documentos/Maestria Lili/Proyectos/Hackbio/Stage 3/Número de muertes reportadas.csv")
+data2 <- read.csv
 
 # Rename column in data2
 data2 <- data2 %>%
