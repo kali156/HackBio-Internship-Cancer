@@ -1,0 +1,155 @@
+---
+title: "Hackbio 3"
+author: "Astrid Liliana Vargas Sanchez"
+date: "2024-09-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+options(scipen=3)
+# Read data
+library(readr)
+
+data <- read.csv("E:/Documentos/Maestria Lili/Proyectos/Hackbio/Stage 3/Número de casos notificados.csv")
+
+```
+
+
+```{r}
+# Filter years from 2010 to 2016
+library(dplyr) 
+cholera_data <- data %>% filter(data$Year >= 2010)
+```
+
+
+```{r}
+# Load packages
+library(ggplot2)
+library(sf)   
+library(rnaturalearth)
+library(rnaturalearthdata)
+```
+
+```{r}
+# Load the world map
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+```
+
+
+```{r}
+names(cholera_data)
+# Rename column in cholera_data
+cholera_data <- cholera_data %>%
+  rename(country = Countries..territories.and.areas)
+```
+
+
+```{r}
+# Join cholera data with the countries' shapefile
+cholera_map <- world %>%
+  left_join(cholera_data, by = c("name" = "country"))
+names(cholera_map)
+```
+
+```{r}
+# Create the map. "Global distribution of reported cholera cases from 2010 to 2016"
+graph1 <- ggplot(data = cholera_map) +
+  geom_sf(aes(fill = Number.of.reported.cases.of.cholera)) +
+  scale_fill_gradient(low = "lightgoldenrod1", high = "#FF6A6A", na.value = "white") +
+  labs(title = "Global distribution of reported cholera cases from 2010 to 2016",
+       fill = "Cases") +
+  theme(panel.background = element_rect(fill = "lightskyblue1"), plot.title  = element_text(face = "bold",
+                                                                                            size = 10))
+ggsave("graph1.png", plot = graph1, width = 6, height = 4, dpi = 300)
+```
+
+```{r}
+names(data)
+# Rename column in data
+data <- data %>%
+  rename(country = Countries..territories.and.areas)
+
+# Join cholera data with the countries' shapefile
+cholera_map2 <- world %>%
+  left_join(data, by = c("name" = "country"))
+names(cholera_map2)
+```
+
+```{r}
+# Create the map. "Global distribution of reported cholera cases"
+graph4 <- ggplot(data = cholera_map2) +
+  geom_sf(aes(fill = Number.of.reported.cases.of.cholera)) +
+  scale_fill_gradient(low = "lightgoldenrod1", high = "#FF6A6A", na.value = "white") +
+  labs(title = "Global distribution of reported cholera cases",
+       fill = "Cases") +
+  theme(panel.background = element_rect(fill = "lightskyblue1"), plot.title  = element_text(face = "bold",
+                                                                                            size = 10))
+ggsave("graph4.png", plot = graph4, width = 6, height = 4, dpi = 300)
+```
+
+```{r}
+# Convert years to factor
+data$Year <- as.factor(data$Year)
+
+# Create the graph
+graph2 <- ggplot(data, aes(y = factor(Year), x = Number.of.reported.cases.of.cholera)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  xlab("Years") +
+  ylab("Number of cases") +
+  ggtitle("Global comparison of cholera cases by year")+
+  theme_classic()+
+  theme(plot.title  = element_text(face = "bold",
+                                   size = 10))+
+  theme(axis.text.y = element_text(size = 4))
+ggsave("graph2.png", plot = graph2, width = 6, height = 4, dpi = 300)
+```
+
+```{r}
+# Read data
+library(readr)
+
+data2 <- read.csv("E:/Documentos/Maestria Lili/Proyectos/Hackbio/Stage 3/Número de muertes reportadas.csv")
+
+# Rename column in data2
+data2 <- data2 %>%
+  rename(death = Number.of.reported.deaths.from.cholera)
+
+# Convert number of deaths to numeric
+data2$death <- as.numeric(data2$death)
+
+# Remove NA data
+colSums(is.na(data2))
+df_complete <- data2[complete.cases(data2),]
+any(is.na(df_complete))
+```
+
+```{r}
+# Convert years to factor
+data2$Year <- as.factor(data2$Year)
+
+# Create the graph
+graph3 <- ggplot(data2, aes(y = factor(Year), x = death)) +
+  geom_bar(stat = "identity", fill = "#90EE90") +
+  xlab("Years") +
+  ylab("Number of deaths") +
+  ggtitle("Global comparison of cholera deaths by year")+
+  theme_classic()+
+  theme(plot.title  = element_text(face = "bold",
+                                   size = 10))+
+  theme(axis.text.y = element_text(size = 4))
+ggsave("graph3.png", plot = graph3, width = 6, height = 4, dpi = 300)
+```
+
+
+```{r}
+# Filter years from 2010 to 2016
+cholera_data2 <- data2 %>% filter(data2$Year >= 2010)
+
+
+```
+
