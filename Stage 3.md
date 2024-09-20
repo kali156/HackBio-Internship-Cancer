@@ -23,10 +23,6 @@ library(sf)
 library(rnaturalearth)
 library(rnaturalearthdata)
 ```
-## Global distribution of reported cholera cases
-
-While the disease is primarily concentrated in regions of Africa and the Eastern Mediterranean, cases have also been reported in the Americas, Europe, and Oceania. Figure 1 illustrates the countries that have reported the highest number of cholera cases or outbreaks.
-
 
 ```{r}
 # Load the world map
