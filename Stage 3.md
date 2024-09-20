@@ -64,14 +64,11 @@ ggsave("graph1.png", plot = graph1, width = 6, height = 4, dpi = 300)
 
 ![Figure 1](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20stage%203/graph4.png)
 
-Most of the drugs studied are targeted at ***Staphylococcus aureus***,
-while the fewest are focused on ***Mycobacterium tuberculosis***. </br>
 Incidence of cholera cases reported to WHO.**
 *Note: countries in blank did not report any cholera cases.*
 
 ## Global Comparison of Cholera Cases by Year
 
-Figure 2 presents the number of reported cases from 1949 to 2016. A significant increase is noted in 1991, corresponding to the epidemic that originated in Peru that year. Cholera epidemics typically last from 5 to 10 years, which explains the subsequent decrease in cases (1). In October 2010, the epidemic re-emerged in Haiti, the poorest country in Latin America, which had been devastated by an earthquake in January of that same year (2).
 
 ```{r}
 # Convert years to factor
@@ -89,12 +86,11 @@ graph2 <- ggplot(data, aes(y = factor(Year), x = Number.of.reported.cases.of.cho
   theme(axis.text.y = element_text(size = 4))
 ggsave("graph2.png", plot = graph2, width = 6, height = 4, dpi = 300)
 ```
+Figure 2 presents the number of reported cases from 1949 to 2016. A significant increase is noted in 1991, corresponding to the epidemic that originated in Peru that year. Cholera epidemics typically last from 5 to 10 years, which explains the subsequent decrease in cases (1). In October 2010, the epidemic re-emerged in Haiti, the poorest country in Latin America, which had been devastated by an earthquake in January of that same year (2).
 
 ![Figure 2](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20stage%203/graph2.png)
 
 ## Global comparison of cholera deaths by year
-
-The lack of hospital care and treatments rendered cholera a lethal disease, which explains the high number of deaths in the initial reported years. Figure 3 shows that the majority of deaths occurred during the first three years of the 1991 epidemic, followed by a significant decline in the subsequent years. Between 2010 and 2011, a notable increase in mortality was recorded, associated with the epidemic that affected the region during those years (1,2).
 
 ```{r}
 # Read data
@@ -131,15 +127,11 @@ graph3 <- ggplot(data2, aes(y = factor(Year), x = death)) +
   theme(axis.text.y = element_text(size = 4))
 ggsave("graph3.png", plot = graph3, width = 6, height = 4, dpi = 300)
 ```
+The lack of hospital care and treatments rendered cholera a lethal disease, which explains the high number of deaths in the initial reported years. Figure 3 shows that the majority of deaths occurred during the first three years of the 1991 epidemic, followed by a significant decline in the subsequent years. Between 2010 and 2011, a notable increase in mortality was recorded, associated with the epidemic that affected the region during those years (1,2).
 
 ![Figure 3](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20stage%203/graph3.png)
 
 ## Reported cases by country and year
-
-The countries that reported the highest number of cholera cases during the epidemic that began in 1991 were Peru, Nigeria, and Brazil.Figure 4,5,6.
-![Figure 4](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20II/Grafico_Peru.png)
-![Figure 5](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20II/Grafico_Nigeria.png)
-![Figure 6](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20I/Grafico_Brazil.png)
 
 ```{r}
 # Reported cases by country and year
@@ -173,6 +165,11 @@ for (country in names(dataframes)) {
 }
 
 ```
+The countries that reported the highest number of cholera cases during the epidemic that began in 1991 were Peru, Nigeria, and Brazil.Figure 4,5,6.
+![Figure 4](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20II/Grafico_Peru.png)
+![Figure 5](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20II/Grafico_Nigeria.png)
+![Figure 6](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20I/Grafico_Brazil.png)
+
 In contrast, for the epidemic that started in 2010, the countries with the most reported cases were Haiti, Somalia, and Nigeria. Figure 7,8,9.
 ![Figure 7](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20I/Grafico_Haiti.png)
 ![Figure 8](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20cases%20by%20country%20-%20II/Grafico_Somalia.png)
@@ -186,16 +183,6 @@ https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20
 https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20cases%20by%20country%20-%20II
 
 ## Reported deaths by country and year
-
-The countries that reported the highest number of cholera deaths during the epidemic that began in 1991 were Nigeria, the Democratic Republic of the Congo, and Peru. Figure 10,11,12.
-![Figure 10](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Nigeria.png)
-![Figure 11](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20I/Grafico_Democratic%20Republic%20of%20the%20Congo.png)
-![Figure 12](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Peru.png)
-
-In contrast, for the epidemic that started in 2010, the countries with the most reported deaths were Haiti, Nigeria, and Somalia. Figure 5. Figure 13,14,15.
-![Figure 13](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20I/Grafico_Haiti.png)
-![Figure 14](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Nigeria.png)
-![Figure 15](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Somalia.png)
 
 ```{r}
 # Rename column in data
@@ -225,6 +212,15 @@ for (country in names(dataframes2)) {
     ggsave(filename = paste0("Grafico_", country, ".png"), plot = p)
 }
 ```
+The countries that reported the highest number of cholera deaths during the epidemic that began in 1991 were Nigeria, the Democratic Republic of the Congo, and Peru. Figure 10,11,12.
+![Figure 10](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Nigeria.png)
+![Figure 11](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20I/Grafico_Democratic%20Republic%20of%20the%20Congo.png)
+![Figure 12](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Peru.png)
+
+In contrast, for the epidemic that started in 2010, the countries with the most reported deaths were Haiti, Nigeria, and Somalia. Figure 5. Figure 13,14,15.
+![Figure 13](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20I/Grafico_Haiti.png)
+![Figure 14](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Nigeria.png)
+![Figure 15](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II/Grafico_Somalia.png)
 
 Find the complete charts at the following link: 
 
