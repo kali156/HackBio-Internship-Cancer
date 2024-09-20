@@ -38,15 +38,15 @@ world <- ne_countries(scale = "medium", returnclass = "sf")
 ```{r}
 names(cholera_data)
 # Rename column in cholera_data
-cholera_data <- cholera_data %>%
+data <- data %>%
   rename(country = Countries..territories.and.areas)
 ```
 
 
 ```{r}
-# Join cholera data with the countries' shapefile
+# Join data with the countries' shapefile
 cholera_map <- world %>%
-  left_join(cholera_data, by = c("name" = "country"))
+  left_join(data, by = c("name" = "country"))
 names(cholera_map)
 ```
 
