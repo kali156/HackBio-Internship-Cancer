@@ -2,7 +2,7 @@
 
 Cholera is a gastrointestinal disease caused by the bacterium Vibrio cholerae, primarily transmitted through contaminated water and food. Its incubation period is short, ranging from two hours to five days. Most affected individuals are asymptomatic or present mild symptoms. However, less than 20% of those infected develop severe acute diarrhea, which can lead to rapid dehydration and, without appropriate treatment, may result in death.
 
-Despite being treatable with rehydration solutions, cholera remains a significant threat, especially in vulnerable communities with limited access to healthcare services. Over the past two centuries, the world has experienced seven cholera pandemics, with the seventh, which began in 1961, still ongoing.
+Despite being treatable with rehydration solutions, cholera remains a significant threat, especially in vulnerable communities with limited access to healthcare services. Over the past two centuries, the world has experienced seven cholera pandemics, with the seventh, which began in 1961, still ongoing (1)
 
 While the disease is primarily concentrated in regions of Africa and the Eastern Mediterranean, cases have also been reported in the Americas, Europe, and Oceania. Figure 1 illustrates the countries that have reported the highest number of cholera cases or outbreaks.
 
@@ -229,7 +229,7 @@ https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20
 https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II
 
 ## Conclusion
-In Europe and some countries in America, the low incidence of cholera is due to a robust sanitation infrastructure, with access to clean water and effective wastewater treatment systems, as well as hygiene education campaigns. To improve the situation in countries where cholera still occurs, it is essential to invest in the development of sanitation infrastructure, ensure access to clean water, and promote proper hygiene practices. Additionally, strengthening public health systems and conducting vaccination campaigns can be key to preventing outbreaks and protecting vulnerable communities.
+In Europe and some countries in America, the low incidence of cholera is due to a robust sanitation infrastructure, with access to clean water and effective wastewater treatment systems, as well as hygiene education campaigns. To improve the situation in countries where cholera still occurs, it is essential to invest in the development of sanitation infrastructure, ensure access to clean water, and promote proper hygiene practices. Additionally, strengthening public health systems and conducting vaccination campaigns can be key to preventing outbreaks and protecting vulnerable communities (1,2).
 
 ## References
 1. Lippi D, Gotuzzo E, Caini S. Cholera.Microbiol Spectr. 2016 Aug;4(4). doi: 10.1128/microbiolspec.PoH-0012-2015.PMID: 27726771.
