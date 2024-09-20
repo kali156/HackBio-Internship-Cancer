@@ -17,13 +17,6 @@ data <- read.csv
 
 
 ```{r}
-# Filter years from 2010 to 2016
-library(dplyr) 
-cholera_data <- data %>% filter(data$Year >= 2010)
-```
-
-
-```{r}
 # Load packages
 library(ggplot2)
 library(sf)   
