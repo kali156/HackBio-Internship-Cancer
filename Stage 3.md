@@ -30,7 +30,7 @@ library(sf)
 library(rnaturalearth)
 library(rnaturalearthdata)
 ```
-# Global distribution of reported cholera cases
+## Global distribution of reported cholera cases
 
 While the disease is primarily concentrated in regions of Africa and the Eastern Mediterranean, cases have also been reported in the Americas, Europe, and Oceania. Figure 1 illustrates the countries that have reported the highest number of cholera cases or outbreaks.
 
@@ -72,7 +72,7 @@ ggsave("graph1.png", plot = graph1, width = 6, height = 4, dpi = 300)
 **Figure 1. Incidence of cholera cases reported to WHO.**
 *Note: countries in blank did not report any cholera cases.*
 
-# Global Comparison of Cholera Cases by Year
+## Global Comparison of Cholera Cases by Year
 
 Figure 2 presents the number of reported cases from 1949 to 2016. A significant increase is noted in 1991, corresponding to the epidemic that originated in Peru that year. Cholera epidemics typically last from 5 to 10 years, which explains the subsequent decrease in cases (1). In October 2010, the epidemic re-emerged in Haiti, the poorest country in Latin America, which had been devastated by an earthquake in January of that same year (2).
 
@@ -95,7 +95,7 @@ ggsave("graph2.png", plot = graph2, width = 6, height = 4, dpi = 300)
 
 **Figure 2. Global comparison of cholera cases by year**
 
-# Global comparison of cholera deaths by year
+## Global comparison of cholera deaths by year
 
 The lack of hospital care and treatments rendered cholera a lethal disease, which explains the high number of deaths in the initial reported years. Figure 3 shows that the majority of deaths occurred during the first three years of the 1991 epidemic, followed by a significant decline in the subsequent years. Between 2010 and 2011, a notable increase in mortality was recorded, associated with the epidemic that affected the region during those years (1,2).
 
@@ -137,7 +137,7 @@ ggsave("graph3.png", plot = graph3, width = 6, height = 4, dpi = 300)
 
 **Figure 3. Global comparison of cholera deaths by year**
 
-# Reported cases by country and year
+## Reported cases by country and year
 
 The countries that reported the highest number of cholera cases during the epidemic that began in 1991 were Peru, Nigeria, and Brazil. In contrast, for the epidemic that started in 2010, the countries with the most reported cases were Haiti, Somalia, and Zimbabwe. Figure 4.
 
@@ -181,7 +181,7 @@ https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20
 
 https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20cases%20by%20country%20-%20II
 
-# Reported deaths by country and year
+## Reported deaths by country and year
 
 The countries that reported the highest number of cholera deaths during the epidemic that began in 1991 were Nigeria, the Democratic Republic of the Congo, and Peru. In contrast, for the epidemic that started in 2010, the countries with the most reported deaths were Haiti, Nigeria, and Somalia. Figure 5.
 
@@ -221,6 +221,9 @@ https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20
 
 https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II
 
-# References
+## References
+1. Lippi D, Gotuzzo E, Caini S. Cholera.Microbiol Spectr. 2016 Aug;4(4). doi: 10.1128/microbiolspec.PoH-0012-2015.PMID: 27726771.
+2. Harvez CB, Ávila y. VS. La epidemia de cólera en América Latina: reemergencia y morbimortalidad [Internet]. Scielosp.org. 2013 [Cited on September 20, 2024]. Available at: https://www.scielosp.org/pdf/rpsp/2013.v33n1/40-46
+
 
 
