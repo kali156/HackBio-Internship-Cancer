@@ -60,7 +60,7 @@ ggsave("graph1.png", plot = graph1, width = 6, height = 4, dpi = 300)
 
 ![Figure 1](https://github.com/Liliana223/HackBio-Internship-Cancer/blob/main/Charts%20stage%203/graph4.png)
 
-Incidence of cholera cases reported to WHO.**
+**Incidence of cholera cases reported to WHO.**
 *Note: countries in blank did not report any cholera cases.*
 
 ## Global Comparison of Cholera Cases by Year
