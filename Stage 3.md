@@ -47,11 +47,11 @@ names(cholera_map)
 ```
 
 ```{r}
-# Create the map. "Global distribution of reported cholera cases from 2010 to 2016"
+# Create the map. "Global distribution of reported cholera cases"
 graph1 <- ggplot(data = cholera_map) +
   geom_sf(aes(fill = Number.of.reported.cases.of.cholera)) +
   scale_fill_gradient(low = "lightgoldenrod1", high = "#FF6A6A", na.value = "white") +
-  labs(title = "Global distribution of reported cholera cases from 2010 to 2016",
+  labs(title = "Global distribution of reported cholera cases",
        fill = "Cases") +
   theme(panel.background = element_rect(fill = "lightskyblue1"), plot.title  = element_text(face = "bold",
                                                                                             size = 10))
