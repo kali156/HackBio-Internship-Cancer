@@ -11,7 +11,7 @@ options(scipen=3)
 # Read data
 library(readr)
 
-data <- read.csv
+data <- read.csv("Number of reported cases")
 
 ```
 
@@ -90,9 +90,9 @@ Figure 2 presents the number of reported cases from 1949 to 2016. A significant 
 
 ```{r}
 # Read data
-library(readr)
+library(readr) 
 
-data2 <- read.csv
+data2 <- read.csv ("Number of reported deaths")
 
 # Rename column in data2
 data2 <- data2 %>%
