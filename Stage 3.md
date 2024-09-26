@@ -1,11 +1,11 @@
-# Phase 1. Introduction to BaSh
+# Phase 1. Introduction to Bash
 Authors (@slack)
 AMR Team:
 
 - Astrid Liliana Vargas Sanchez (@Liliana)
 - Haseeb Manzoor (@Seebi)
 
-In this work, we provide the necessary Bash commands for Dr. Einstein to perform his bioinformatics analysis. You can access the Word document through the following link: https://docs.google.com/document/d/17j56qL-hLUobkN0fvQbuaATzogHQt2ql/edit?usp=drive_link&ouid=105111828927770073477&rtpof=true&sd=true
+In this work, we provide the necessary Bash commands for Dr. Einstein to perform his bioinformatics analysis. You can access the Word document through the following link: [Introduction to Bash](https://docs.google.com/document/d/17j56qL-hLUobkN0fvQbuaATzogHQt2ql/edit?usp=drive_link&ouid=105111828927770073477&rtpof=true&sd=true)
 
 # Phase 2. Cholera Outbreak Dashboard
 Authors (@slack)
@@ -199,9 +199,9 @@ In contrast, for the epidemic that started in 2010, the countries with the most 
 
 Find the complete charts at the following link: 
 
-https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20cases%20by%20country%20-%20I
+[Charts of reported cases by country I](https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20cases%20by%20country%20-%20I)
 
-https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20cases%20by%20country%20-%20II
+[Charts of reported cases by country II](https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20cases%20by%20country%20-%20II)
 
 ## Reported deaths by country and year
 
@@ -245,9 +245,9 @@ In contrast, for the epidemic that started in 2010, the countries with the most 
 
 Find the complete charts at the following link: 
 
-https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20deaths%20by%20country%20-%20I
+[Charts of reported deaths by country I](https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20deaths%20by%20country%20-%20I)
 
-https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II
+[Charts of reported deaths by country II](https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20reported%20deaths%20by%20country%20-%20II)
 
 ## Conclusion
 In Europe and some countries in America, the low incidence of cholera is due to a robust sanitation infrastructure, with access to clean water and effective wastewater treatment systems, as well as hygiene education campaigns. To improve the situation in countries where cholera still occurs, it is essential to invest in the development of sanitation infrastructure, ensure access to clean water, and promote proper hygiene practices. Additionally, strengthening public health systems and conducting vaccination campaigns can be key to preventing outbreaks and protecting vulnerable communities (1,2).
