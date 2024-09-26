@@ -241,6 +241,8 @@ https://github.com/Liliana223/HackBio-Internship-Cancer/tree/main/Charts%20of%20
 ## Conclusion
 In Europe and some countries in America, the low incidence of cholera is due to a robust sanitation infrastructure, with access to clean water and effective wastewater treatment systems, as well as hygiene education campaigns. To improve the situation in countries where cholera still occurs, it is essential to invest in the development of sanitation infrastructure, ensure access to clean water, and promote proper hygiene practices. Additionally, strengthening public health systems and conducting vaccination campaigns can be key to preventing outbreaks and protecting vulnerable communities (1,2).
 
+To See the app in working click [CholeraTrack](https://duagulzar.shinyapps.io/CholeraTrack/)
+
 ## References
 1. Lippi D, Gotuzzo E, Caini S. Cholera.Microbiol Spectr. 2016 Aug;4(4). doi: 10.1128/microbiolspec.PoH-0012-2015.PMID: 27726771.
 2. Harvez CB, Ávila y. VS. La epidemia de cólera en América Latina: reemergencia y morbimortalidad [Internet]. Scielosp.org. 2013 [Cited on September 20, 2024]. Available at: https://www.scielosp.org/pdf/rpsp/2013.v33n1/40-46
