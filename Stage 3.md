@@ -1,3 +1,12 @@
+# Phase 1. Introduction to BaSh
+Authors (@slack)
+AMR Team:
+
+- Astrid Liliana Vargas Sanchez (@Liliana)
+- Haseeb Manzoor (@Seebi)
+
+In this work, we provide the necessary Bash commands for Dr. Einstein to perform his bioinformatics analysis. You can access the Word document through the following link: https://docs.google.com/document/d/17j56qL-hLUobkN0fvQbuaATzogHQt2ql/edit?usp=drive_link&ouid=105111828927770073477&rtpof=true&sd=true
+
 # Phase 2. Cholera Outbreak Dashboard
 Authors (@slack)
 
