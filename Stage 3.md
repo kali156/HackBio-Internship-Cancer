@@ -1,3 +1,17 @@
+# Cholera Outbreak Dashboard
+Authors (@slack)
+Frontend Team:
+
+Dua Gulzar (@Dua)
+Premalata Pati (@Premalata)
+Hana Mahmoud Mazroua (@Mazroua)
+Nourhan Adel ElHifnawy (@Hifnawy)
+Jesse Frank Juma (@jesse)
+AMR Team:
+
+Astrid Liliana Vargas Sanchez (@Liliana)
+Haseeb Manzoor (@Seebi)
+
 # Global Cholera Situation
 
 Cholera is a gastrointestinal disease caused by the bacterium Vibrio cholerae, primarily transmitted through contaminated water and food. Its incubation period is short, ranging from two hours to five days. Most affected individuals are asymptomatic or present mild symptoms. However, less than 20% of those infected develop severe acute diarrhea, which can lead to rapid dehydration and, without appropriate treatment, may result in death.
