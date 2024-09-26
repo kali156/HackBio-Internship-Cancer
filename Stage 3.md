@@ -1,4 +1,4 @@
-# Cholera Outbreak Dashboard
+# Phase 2. Cholera Outbreak Dashboard
 Authors (@slack)
 Frontend Team:
 
