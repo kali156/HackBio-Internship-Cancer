@@ -1,16 +1,18 @@
 # Phase 2. Cholera Outbreak Dashboard
 Authors (@slack)
+
 Frontend Team:
 
-Dua Gulzar (@Dua)
-Premalata Pati (@Premalata)
-Hana Mahmoud Mazroua (@Mazroua)
-Nourhan Adel ElHifnawy (@Hifnawy)
-Jesse Frank Juma (@jesse)
+- Dua Gulzar (@Dua)
+- Premalata Pati (@Premalata)
+- Hana Mahmoud Mazroua (@Mazroua)
+- Nourhan Adel ElHifnawy (@Hifnawy)
+- Jesse Frank Juma (@jesse)
+
 AMR Team:
 
-Astrid Liliana Vargas Sanchez (@Liliana)
-Haseeb Manzoor (@Seebi)
+- Astrid Liliana Vargas Sanchez (@Liliana)
+- Haseeb Manzoor (@Seebi)
 
 ## Global Cholera Situation
 
