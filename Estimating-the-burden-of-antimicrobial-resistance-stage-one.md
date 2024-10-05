@@ -1,6 +1,6 @@
 # **Estimating the burden of antimicrobial resistance: a systematic literature review**
 Authors (@slack): .Mahmoud hassanein (@Mahmoud hassanein),Astrid Liliana Vargas Sanchez (@Liliana) ,Brian Bosire (@Bosire Ke),Noreen Nasambu Juma (@Nareju_noreen)
-
+  
 ## **Introduction**
 
 Anti \-Microbial Resistant (AMR) is causing widely concern around the world due to the potential impact on global population health , costs to Health care system in addition to GDP number ,The Review estimates that by 2050 the global cost of AMR will be up to $100 trillion and will account for 10 million extra deaths a year. which is being utilized by policy makers to push AMR up the political agenda.
